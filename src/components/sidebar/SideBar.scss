@@ -6,7 +6,7 @@
 }
 
 .sidebar {
-  width: 150px;
+  min-width: 150px;
   background: #191718;
 }
 
@@ -32,4 +32,26 @@
 }
 .home {
   color: #ffffff !important;
+}
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    background: #191718;
+  }
+  .menu {
+    display: flex;
+    &__item {
+      padding: 0px 16px;
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .sidebar {
+    width: 100%;
+    background: #191718;
+  }
+}
+
+@media (min-width: 901px) {
 }

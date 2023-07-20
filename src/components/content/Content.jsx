@@ -9,7 +9,7 @@ const Content = () => {
   return (
     <div className="content">
       <div className="logo">
-        <img src={logo} alt="" />
+        <img src={logo} alt="" className="logo__image" />
       </div>
       <div className="paragraph">
         <div className="paragraph__title">Lorem ipsum dolor sit asmet?</div>
