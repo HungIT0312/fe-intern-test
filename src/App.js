@@ -8,9 +8,7 @@ function App() {
     <div className="background">
       <SideBar />
       <div className="container">
-        <section className="content">
-          <Content />
-        </section>
+        <Content />
         <Footer />
       </div>
     </div>
